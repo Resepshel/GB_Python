@@ -2,7 +2,7 @@ import telebot
 from telebot import types
 from operation import exp_data, imp_data
 
-bot = telebot.TeleBot("5931391196:AAFr7HWFXy6ulDQJCjh1Q70lA4AP04KYoZg")
+bot = telebot.TeleBot("Token")
 
 
 @bot.message_handler(commands=['start'])
